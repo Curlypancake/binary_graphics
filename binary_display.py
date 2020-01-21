@@ -1,13 +1,15 @@
 import random
 import time
+import os
 
 foo = "."
 stage = 0
 pix = ""
-delay = 0.06
+delay = 0.03
 def create_space_rock():
     while foo == ".":
             for i in range(7):
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
@@ -28,6 +30,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
@@ -48,6 +51,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo, foo)
@@ -68,6 +72,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo)
@@ -88,6 +93,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo)
@@ -108,6 +114,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo) # m
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo)
@@ -127,6 +134,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo)
@@ -146,13 +154,14 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
-                print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, pix, pix, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, pix, pix, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo)
+                print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
@@ -167,6 +176,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo, foo)
@@ -187,6 +197,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
@@ -207,6 +218,7 @@ def create_space_rock():
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 time.sleep(delay)
+                os.system("cls")
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
                 print(foo, foo, foo, foo, foo, foo, pix, pix, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo, foo)
